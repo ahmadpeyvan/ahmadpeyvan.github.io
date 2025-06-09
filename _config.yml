@@ -22,7 +22,7 @@ repository               : "https://github.com/ahmadpeyvan/ahmadpeyvan.github.io
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "image/profile_ahmad.jpg"
+  avatar           : "/images/profile_ahmad.jpg"
   name             : "Ahmad Peyvan"
   pronouns         : # example: "she/her"  
   bio              : "Scientific Computing Expert in Compressible Flows and Deeplearning Surrogates"
