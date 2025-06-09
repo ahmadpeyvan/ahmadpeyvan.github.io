@@ -2,7 +2,7 @@
 title: "High-order methods for hypersonic flows with strong shocks and real chemistry"
 collection: publications
 category: manuscripts
-permalink: /publication/2024-06-01-paper-title-number-1.md
+permalink: /publication/2023-10-01-paper-title-number-2.md
 excerpt: 'This paper introduces a formulation of for entropy conservative Euler fluxes for non-equilibrium thermodynamics'
 date: 2024-06-01
 venue: 'Journal of Computational Physics'
