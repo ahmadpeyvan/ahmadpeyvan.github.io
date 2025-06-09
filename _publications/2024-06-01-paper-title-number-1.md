@@ -2,7 +2,7 @@
 title: "RiemannONets: Interpretable neural operators for Riemann problems"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2024-06-01-paper-title-number-1.md
 excerpt: 'This paper presents neural operator frameworks designed to accurately learn discontinuous solutions arising in hypersonic flow regimes.'
 date: 2024-06-01
 venue: 'Computer Methods in Applied Mechanics and Engineering'
