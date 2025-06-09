@@ -11,4 +11,5 @@ paperurl: 'https://www.sciencedirect.com/science/article/pii/S0045782524002524'
 bibtexurl: 'https://scholar.googleusercontent.com/scholar.bib?q=info:PL4SWtlu_CcJ:scholar.google.com/&output=citation&scisdr=CgLFYV4tENqptf0h-MM:AAZF9b8AAAAAaEcn4MPw3rzKyZ866saOiLB1MuE&scisig=AAZF9b8AAAAAaEcn4NYjg6ot-TETbLkMu5zKFM0&scisf=4&ct=citation&cd=-1&hl=en'
 # citation: 'Ahmad Peyvan, . (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+This paper enables the construction of generalizable and interpretable approximate Riemann solvers using neural operators. Its framework can be extended to learn high-fidelity solutions of hypersonic flow fields, including discontinuities such as shocks and contact waves. Moreover, the proposed architectures are scalable to 2D and 3D configurations, making them suitable for rapid surrogate modeling in complex aerospace applications.
