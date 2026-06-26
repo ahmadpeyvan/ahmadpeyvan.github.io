@@ -1,50 +1,62 @@
 ---
 permalink: /
-title: "Home"
+title: "Ahmad Peyvan"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-Ahmad Peyvan is an Assistant Professor (Research) in the Division of Applied Mathematics at [Brown University](), where he leads research on advanced computational frameworks for high-speed aerodynamic flows. His work centers on developing high-order numerical methods for compressible flow simulations and designing neural operator architectures that model complex, geometry-dependent physics. These surrogate models aim to significantly accelerate large-scale CFD computations.
 
-Before joining the faculty at Brown in 2024, Dr. Peyvan completed a postdoctoral fellowship in the [Division of Applied Mathematics](https://appliedmath.brown.edu/), where he contributed to the development of entropy-stable discontinuous Galerkin methods and machine learning–based surrogates for hypersonic flow applications. He earned his Ph.D. in Mechanical Engineering from the [University of Illinois at Chicago](https://www.uic.edu/) in 2022, focusing on flux reconstruction spectral element methods for compressible flows. Dr. Peyvan holds a B.S. in Mechanical Engineering–Heat and Fluids from [Shiraz University](https://shirazu.ac.ir/en/home) (2011) and an M.S. in Mechanical Engineering–Energy Conversion from the [Sharif University of Technology](https://en.sharif.ir/) (2013). He has published extensively in peer-reviewed journals and regularly presents at leading conferences in computational science and engineering.
+<style>
+.about-figs-float { float: right; width: 48%; margin: 0.2em 0 1em 1.6em; }
+.about-figs-float figure { margin: 0 0 1.1em; }
+.about-figs-float img { width: 100%; display: block; border-radius: 6px; }
+.about-figs-float figcaption { font-size: 0.8em; color: #666; text-align: center; padding-top: 0.35em; line-height: 1.3; }
+@media (max-width: 650px) {
+  .about-figs-float { float: none; width: 100%; margin: 1em 0; }
+}
+</style>
 
-<!-- A data-driven personal website
+<div class="about-figs-float">
+  <figure>
+    <img src="/images/hypersonic-transition.png" alt="Hypersonic boundary layer transition heat flux">
+    <figcaption>DNS of hypersonic boundary-layer transition &mdash; surface heat flux on a flat plate.</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/geometry-surrogate.png" alt="Fusion-DeepONet geometry-dependent neural operator architecture">
+    <figcaption>Geometry-dependent neural operator (Fusion-DeepONet) mapping geometry to hypersonic flow fields.</figcaption>
+  </figure>
+</div>
+
+Ahmad Peyvan is an incoming Assistant Professor in the Department of Mechanical Engineering at [Vanderbilt University](https://www.vanderbilt.edu/). His research focuses on scientific machine learning, high-order computational fluid dynamics, and physics-aware artificial intelligence for complex engineering systems, with applications in hypersonic flows, reacting gases, neural operators, digital twins, and geometry-dependent surrogate modeling.
+
+Before joining Vanderbilt, Dr. Peyvan was an Assistant Professor (Research) in the [Division of Applied Mathematics](https://appliedmath.brown.edu/) at Brown University, where he led research on advanced computational frameworks for high-speed aerodynamic flows. His work included entropy-stable discontinuous Galerkin methods, adaptive high-order solvers, and scientific machine learning approaches for developing efficient surrogate models, reduced-order models, and equation-discovery frameworks for complex physical systems.
+
+Dr. Peyvan completed a postdoctoral fellowship in the Division of Applied Mathematics at Brown University and earned his Ph.D. in Mechanical Engineering from the University of Illinois at Chicago in 2022, focusing on flux reconstruction spectral element methods for compressible flows.
+
+Research Interests
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+- Scientific machine learning & neural operators
+- High-order computational fluid dynamics (discontinuous Galerkin & spectral element methods)
+- Physics-aware artificial intelligence for engineering systems
+- Hypersonic and reacting flows
+- Digital twins, reduced-order models, and equation discovery
+- Geometry-dependent surrogate modeling
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
+Education
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+- **Ph.D.**, Mechanical Engineering, [University of Illinois at Chicago](https://www.uic.edu/), 2022
+- **M.S.**, Mechanical Engineering — Energy Conversion, [Sharif University of Technology](https://en.sharif.ir/), 2013
+- **B.S.**, Mechanical Engineering — Heat and Fluids, [Shiraz University](https://shirazu.ac.ir/en/home), 2011
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Prospective Students & Postdocs
+======
+I am recruiting motivated Ph.D. students and postdoctoral researchers to join my group at Vanderbilt starting Fall 2026. If you are interested in scientific machine learning, high-order CFD, and physics-aware AI for complex engineering systems, please reach out with your CV and a brief statement of your research interests.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+News
+======
+- **August 2026** — Joining the Department of Mechanical Engineering at Vanderbilt University as an Assistant Professor.
 
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
+Contact
+======
+The best way to reach me is by email (see the sidebar). You can also find my work on [Google Scholar](https://scholar.google.com/citations?user=Nwq7iDIAAAAJ&hl=en&oi=ao), [ORCID](https://orcid.org/0000-0003-4038-3432), and [GitHub](https://github.com/ahmadpeyvan).

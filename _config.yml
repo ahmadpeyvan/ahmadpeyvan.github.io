@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "dark"
+site_theme               : "default"
 title                    : "Ahmad Peyvan "
 title_separator          : "-"
 name                     : &name "Ahmad Peyvan"
@@ -80,8 +80,10 @@ author:
 publication_category:
   books:
     title: 'Books'
+  preprints:
+    title: 'Preprints'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
 
